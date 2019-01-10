@@ -42,6 +42,11 @@ nbactions.xml
 # Gradle
 .gradle/
 
+# Kotlin
+*.bc
+*.kexe
+*.klib
+
 # Java
 *.class
 *.jar
