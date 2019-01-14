@@ -10,6 +10,12 @@ set noeol
 " Enable mouse in all modes
 set mouse=a
 
+" Leader
+let mapleader = ","
+
+" Turn on the Wild menu
+set wildmenu
+
 " Enable syntax coloring
 syntax on
 
@@ -28,6 +34,9 @@ endif
 " Column limit
 set textwidth=80
 
+" Soft wrapping text
+set wrap linebreak nolist
+
 " Show line numbers
 set number
 
@@ -36,6 +45,12 @@ set incsearch
 set ignorecase
 set smartcase
 set hlsearch
+
+" Regular expressions turn magic on
+set magic
+
+" Don't redraw while executing macros
+set lazyredraw 
 
 " LaTeX
 let g:tex_flavor='latex'
