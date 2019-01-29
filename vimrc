@@ -62,3 +62,9 @@ colorscheme lucario
 set nobackup
 set nowb
 set noswapfile
+
+" Taglist Plugin
+nnoremap <silent> <F8> :TlistToggle<CR>
+autocmd BufWritePost *.c,*.cc,*.cpp,*.h,*.hh :TlistUpdate
+autocmd BufWritePost *.py :TlistUpdate
+autocmd BufWritePost *.php :TlistUpdate
