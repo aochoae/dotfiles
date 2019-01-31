@@ -126,6 +126,9 @@ Session.vim
 *.glg
 *.glo
 *.gls
+*.ntn
+*.not
+*.nlg
 
 # makeidx
 *.idx
@@ -141,6 +144,7 @@ _minted*
 *.pyg
 
 # TikZ & PGF
+*.dep
 *.dpth
 *.md5
 *.auxlock
