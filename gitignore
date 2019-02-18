@@ -13,6 +13,7 @@ output/
 # Linux
 .directory
 .fuse_hidden*
+.nfs*
 
 # CUDA
 *.i
@@ -152,6 +153,9 @@ _minted*
 # Python
 __pycache__/
 *.pyc
+
+# Kate
+.*.kate-swp
 
 # Microsoft Office
 ~$*.doc*
