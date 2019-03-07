@@ -157,6 +157,11 @@ __pycache__/
 # Kate
 .*.kate-swp
 
+# Grunt - https://github.com/gruntjs/grunt/blob/master/.gitignore
+node_modules
+.npm-debug.log
+tmp
+
 # Microsoft Office
 ~$*.doc*
 ~$*.xls*
