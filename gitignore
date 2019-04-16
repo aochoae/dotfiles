@@ -1,14 +1,19 @@
 # Global
 *~
 bin/
-build/
+[Bb]uild/
 out/
 output/
+[Rr]elease
 
 # Objects
 *.a
 *.o
 *.so
+
+# Diff
+*.patch
+*.diff
 
 # Linux
 .directory
@@ -167,3 +172,14 @@ tmp
 ~$*.xls*
 *.xlk
 ~$*.ppt*
+
+# Backup
+*.bak
+*.tmp
+
+# Archives
+*.zip
+*.gz
+*.bzip
+*.bz2
+*.tar
