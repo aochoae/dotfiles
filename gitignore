@@ -83,6 +83,15 @@ pom.xml.versionsBackup
 pom.xml.next
 release.properties
 
+# Drupal
+/sites/*/*settings*.php
+/sites/*/*services*.yml
+/sites/*/files
+/sites/*/private
+/sites/*/tmp
+/sites/*/cache
+/sites/simpletest
+
 # Mercurial
 .hg/
 .hgignore
