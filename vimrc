@@ -16,6 +16,12 @@ let mapleader = ","
 " Turn on the Wild menu
 set wildmenu
 
+" Show the filename in the titlebar
+set title
+
+" Show (partial) command in the last line of the screen
+set showcmd
+
 " Enable syntax coloring
 syntax on
 
@@ -51,6 +57,9 @@ set magic
 
 " Don't redraw while executing macros
 set lazyredraw 
+
+" Ring the bell (beep or screen flash) for error messages
+set noerrorbells
 
 " LaTeX
 let g:tex_flavor='latex'

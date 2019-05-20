@@ -4,6 +4,7 @@
 	signingkey = :signingkey
 [core]
 	excludesfile = ~/.gitignore
+	attributesfile = ~/.gitattributes
 	editor = vim
 	autocrlf = input
 [merge]
