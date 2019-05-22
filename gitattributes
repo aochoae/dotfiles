@@ -1,1 +1,12 @@
-*	text=auto
+# Auto detect text files and perform LF normalization
+*       text=auto
+
+# Documents
+*.tex   text diff=tex
+*.bib   text diff=bibtex
+
+# Graphics
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.svg   binary
