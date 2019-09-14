@@ -192,3 +192,6 @@ tmp
 *.bzip
 *.bz2
 *.tar
+
+# WordPress
+wp-cli.phar
