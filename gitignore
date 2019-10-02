@@ -171,6 +171,9 @@ __pycache__/
 # Kate
 .*.kate-swp
 
+# Node
+npm-debug.log*
+
 # Grunt - https://github.com/gruntjs/grunt/blob/master/.gitignore
 node_modules
 .npm-debug.log
@@ -192,6 +195,7 @@ tmp
 *.bzip
 *.bz2
 *.tar
+*.tgz
 
 # WordPress
 wp-cli.phar
