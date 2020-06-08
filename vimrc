@@ -39,6 +39,7 @@ endif
 
 " Column limit
 set textwidth=80
+set colorcolumn=+2
 
 " Soft wrapping text
 set wrap linebreak nolist
@@ -65,15 +66,22 @@ set noerrorbells
 let g:tex_flavor='latex'
 
 " Color
-colorscheme lucario
+colorscheme nord
+set termguicolors
 
 " Turn backup off
 set nobackup
 set nowb
 set noswapfile
 
+" netrw
+let g:netrw_banner = 0
+let g:netrw_liststyle = 3
+
 " Taglist Plugin
 nnoremap <silent> <F8> :TlistToggle<CR>
 autocmd BufWritePost *.c,*.cc,*.cpp,*.h,*.hh :TlistUpdate
 autocmd BufWritePost *.py :TlistUpdate
 autocmd BufWritePost *.php :TlistUpdate
+
+let Tlist_Use_Right_Window = 1
