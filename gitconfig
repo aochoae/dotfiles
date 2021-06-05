@@ -9,8 +9,14 @@
 	autocrlf = input
 [merge]
 	tool = vimdiff
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
 [gpg]
 	program = gpg2
 [init]
 	defaultBranch = main
-
+[pull]
+	rebase = false
