@@ -38,7 +38,7 @@ if has("autocmd")
 endif
 
 " Column limit
-set textwidth=80
+set textwidth=100
 set colorcolumn=+2
 
 " Soft wrapping text
