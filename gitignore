@@ -1,4 +1,5 @@
 # Global
+.DS_Store
 *~
 bin/
 [Bb]uild/
@@ -114,9 +115,6 @@ release.properties
 Session.vim
 .netrwhist
 
-# LibreOffice
-.~lock.*#
-
 # Matlab
 *.asv
 *.m~
@@ -171,9 +169,6 @@ _minted*
 # Python
 __pycache__/
 *.pyc
-
-# Kate
-.*.kate-swp
 
 # Node
 npm-debug.log*
