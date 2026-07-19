@@ -11,6 +11,9 @@ output/
 CLAUDE.local.md
 .claude/settings.local.json
 
+# Instructions with AGENTS.md
+AGENTS.override.md
+
 # Objects
 *.a
 *.o
