@@ -45,14 +45,6 @@ vendor/
 .classpath
 .settings/
 
-# NetBeans
-nbproject/private/
-nbbuild/
-dist/
-nbdist/
-nbactions.xml
-.nb-gradle/
-
 # Gradle
 .gradle/
 **/build/
