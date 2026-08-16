@@ -1,7 +1,7 @@
 [user]
-	name = ${env:name}
-	email = ${env:email}
-	signingkey = ${env:signingkey}
+	name = ${env:GIT_NAME}
+	email = ${env:GIT_EMAIL}
+	signingkey = ${env:GIT_SIGNINGKEY}
 [core]
 	excludesfile = ~/.gitignore
 	attributesfile = ~/.gitattributes
